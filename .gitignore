@@ -1,0 +1,83 @@
+# ==========================================
+# TERRAFORM
+# ==========================================
+# Ignora i file locali dello stato di Terraform (contengono dati sensibili e configurazioni di backend)
+*.tfstate
+*.tfstate.*
+
+# Ignora la cartella di inizializzazione (.terraform) che contiene i file dei provider scaricati
+.terraform/
+
+# Ignora le variabili d'ambiente locali (dove metti le password/credenziali segrete)
+*.tfvars
+*.tfvars.json
+
+# Ignora i file di crash log o di override locali
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignora i file del CLI di Terraform o i piani esportati che non vuoi tracciare
+.terraform.lock.hcl
+*.tfplan
+
+# ==========================================
+# DOCKER
+# ==========================================
+# Ignora i dati dei volumi locali (se montati localmente per database o persistenza)
+.docker/
+**/data/
+
+# Ignora i file di log generati dai container
+*.log
+docker-compose.log
+
+# Se usi segreti o certificati locali per Docker, ignorali
+secrets/
+*.pem
+*.key
+
+# ==========================================
+# FLOCI & NODE / TYPESCRIPT (JavaScript Ecosystem)
+# ==========================================
+# Ignora le dipendenze scaricate
+node_modules/
+jspm_packages/
+
+# Ignora le cartelle di build/distribuzione generate (es. dist, build, out)
+dist/
+build/
+.next/
+.nuxt/
+
+# Ignora i file di log di npm, yarn e pnpm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignora le configurazioni locali o i file di cache
+.npm
+.eslintcache
+.turbo
+
+# ==========================================
+# VARIABILI D'AMBIENTE E CONFIGURAZIONI LOCALI
+# ==========================================
+# MAI tracciare i file con le credenziali reali
+.env
+.env.local
+.env.*.local
+
+# Consenti però di tracciare il template/esempio per i tuoi colleghi
+!.env.example
+!.env.template
+
+# ==========================================
+# SISTEMA OPERATIVO & IDE
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
