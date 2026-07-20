@@ -1,0 +1,115 @@
+
+/* @theme cc-dark */
+@import-theme 'default';
+
+:root {
+  --cc-bg: #1C1B2D;
+  --cc-fg: #DFDCF2;
+  --cc-muted: #A9A7B9;
+  --cc-accent: #FF8AB1;
+  --cc-accent-2: #71BAD0;
+  --cc-border: #6E6A86;
+  --cc-code-bg: #232137;
+}
+
+section {
+  background: var(--cc-bg);
+  color: var(--cc-fg);
+  font-family: 'FantasqueSansM Nerd Font', 'Helvetica Neue', sans-serif;
+  font-size: 26px;
+}
+
+h1, h2, h3 {
+  color: var(--cc-accent);
+  font-family: 'FantasqueSansM Nerd Font', sans-serif;
+  font-weight: 700;
+}
+
+h1 { font-size: 1.9em; }
+
+h2 {
+  font-size: 1.4em;
+  border-bottom: 1px solid var(--cc-border);
+  padding-bottom: 0.5em;
+}
+
+h1 + h2 {
+  color: var(--cc-accent-2);
+}
+
+a { color: var(--cc-accent-2); }
+
+strong { color: var(--cc-accent); }
+
+ul, ol {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+ul > li {
+  list-style: none;
+  position: relative;
+  padding-left: 1.3em;
+  margin-bottom: 0.35em;
+}
+
+ul > li::before {
+  content: "\f105";
+  font-family: 'FantasqueSansM Nerd Font';
+  color: var(--cc-accent-2);
+  position: absolute;
+  left: 0;
+}
+
+code, pre {
+  font-family: 'FantasqueSansM Nerd Font Mono', monospace;
+}
+
+pre {
+  background: var(--cc-code-bg);
+  border-left: 4px solid var(--cc-accent);
+  padding: 0.6em 0.9em;
+  border-radius: 4px;
+}
+
+code {
+  background: var(--cc-code-bg);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+  border-radius: 4px;
+}
+
+table, table thead, table tbody, table tr, table td, table th {
+  border: 0;
+  background: var(--cc-bg);
+}
+
+table tr:nth-child(2n) {
+  background-color: var(--cc-bg);
+}
+
+table td, table th {
+  padding: 0.5em 1em;
+  border-bottom: 1px solid var(--cc-border);
+  background: var(--cc-code-bg);
+}
+
+table th {
+  color: var(--cc-accent-2);
+  border-bottom: 3px solid var(--cc-border);
+  text-align: left;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+section::after {
+  color: var(--cc-muted);
+}
