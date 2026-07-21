@@ -76,13 +76,24 @@ Timing indicativo (totale 180 min, di cui 30 fissati nel PRD per l'apertura):
 
 ---
 
-![bg cover](images/ts.jpg)
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
+![w:50% center](images/ts.jpg)
 
 ---
 
 - 2009: mi laurea in scienze dell'informazione a bologna, lavoro quasi 2 anni per Almalaurea
 - 2011: fondo **Comuni-Chiamo** — software per la gestione delle segnalazioni dei cittadini, oggi usato da 100+ comuni e 6.500+ operatori
-- dal 2016 al 2023: Mentor @ Fondazione Golinelli --- Palestra di imprenditorialità
+- dal 2016 al 2023: Mentor @ Fondazione Golinelli — Palestra di imprenditorialità
+
+---
+
+![bg cover](images/c-c.png)
 
 ---
 
@@ -147,7 +158,7 @@ Il mio ruolo nel tempo (2):
 
 ---
 
-[ TODO ] foto di golinelli
+![bg cover](images/fg.jpg)
 
 ---
 
