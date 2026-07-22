@@ -38,6 +38,7 @@ Timing indicativo (totale 180 min, di cui 30 fissati nel PRD per l'apertura):
 22/07/2026 — 9:00-12:00
 
 **Matteo** Buferli — *Founder Comuni-Chiamo.com*
+matteo.buferli@comuni-chiamo.com
 
 ---
 
@@ -51,7 +52,7 @@ Timing indicativo (totale 180 min, di cui 30 fissati nel PRD per l'apertura):
 
 ---
 
-- Ho cominciato ad usare il pc a 13 anni (ne compio 40 a breve), con un bellissimo Pentium II della Packard Bell, che ho rotto dopo pochi mesi di utilizzo ...
+- Ho cominciato ad usare il PC a 13 anni (ne compio 40 a breve), con un bellissimo Pentium II della Packard Bell, che ho rotto dopo pochi mesi di utilizzo ...
 
 ---
 
@@ -59,7 +60,7 @@ Timing indicativo (totale 180 min, di cui 30 fissati nel PRD per l'apertura):
 
 ---
 
-- Skateboard + walkman + fotocamera usa e getta
+- ... ascoltavo Spotify ...
 
 ---
 
@@ -67,12 +68,15 @@ Timing indicativo (totale 180 min, di cui 30 fissati nel PRD per l'apertura):
 
 ---
 
-- a 17 anni formo la Gilda italiana più grande su World of Warcraft: era la cosa piu' vicina ai gruppi whatsapp che c'era all'epoca
-- parlavamo su un software che si chiamava TeamSpeak, il nonno di Discord / Google Meet o similari
+- ... mi ritrovavo in uno spazio virtuale con i miei amici ...
 
 ---
 
 ![bg cover](images/wow.jpg)
+
+---
+
+- spesso solo per fare 2 chiacchiere :)
 
 ---
 
@@ -87,8 +91,9 @@ img[alt~="center"] {
 
 ---
 
-- 2009: mi laurea in scienze dell'informazione a bologna, lavoro quasi 2 anni per Almalaurea
-- 2011: fondo **Comuni-Chiamo** — software per la gestione delle segnalazioni dei cittadini, oggi usato da 100+ comuni e 6.500+ operatori
+- 2009: Laurea triennale in scienze dell'informazione a Bologna
+- 2009 - 2011: Junior Developer @ Almalaurea
+- 2011 - oggi: fondo **Comuni-Chiamo** — software as a service per la gestione delle segnalazioni dei cittadini, oggi usato da 100+ comuni e 6.500+ operatori
 - dal 2016 al 2023: Mentor @ Fondazione Golinelli — Palestra di imprenditorialità
 
 ---
@@ -227,6 +232,16 @@ Nuovi ruoli (?):
 
 ---
 
+## Sharing is caring!
+
+Giro di presentazioni (volontario):
+
+- Nome
+- Cosa ti piace di questo ambito?
+- Cosa vorresti imparare?
+
+---
+
 ## Importante
 
 In questa industria non c'è un unico modo per fare le cose, ma più di uno.
@@ -235,23 +250,7 @@ E quello che impariamo, a volte è già obsoleto.
 
 ---
 
-## Sharing is caring!
-
-Giro di presentazioni (volontario):
-
-- Nome
-- Cosa ti ha portato a questo percorso
-- Cosa ti aspetti da queste 9 ore
-
----
-
-## Come funzionano queste 9 ore
-
-| Data | Orario | Argomento |
-|---|---|---|
-| 22/07 | 9:00-12:00 | Fondamenta ISO 27001 + Lab |
-| 27/07 | 9:00-12:00 | Progettazione teorica di un Cloud complaint + Lavoro di gruppo (1) |
-| 29/07 | 9:00-12:00 | Lavorare in gruppo (2) + Discussione finale |
+## Ready?
 
 ---
 
@@ -268,7 +267,7 @@ Non è:
 
 - un prodotto
 - un firewall
-- una soluzione
+- una soluzione che possiamo installare
 
 ---
 
@@ -352,6 +351,14 @@ Quattro aree su cui ci concentriamo oggi:
 
 ## 1. Gestione della sicurezza di rete
 
+- **Segmentazione** — ...
+- **Monitoraggio** — ...
+- **Controllo del traffico** — ...
+
+---
+
+## 1. Gestione della sicurezza di rete (!)
+
 - **Segmentazione** — non tutto deve parlare con tutto
 - **Monitoraggio** — sapere cosa attraversa la rete
 - **Controllo del traffico** — regole esplicite, non "permetti tutto per comodità"
@@ -359,6 +366,14 @@ Quattro aree su cui ci concentriamo oggi:
 ---
 
 ## 2. Controllo accessi
+
+- **Autenticazione** — ...
+- **Autorizzazione** — ...
+- **Minimo privilegio** — ...
+
+---
+
+## 2. Controllo accessi (!)
 
 - **Autenticazione** — sei davvero chi dici di essere?
 - **Autorizzazione** — hai il diritto di fare questa cosa specifica?
@@ -386,19 +401,27 @@ Quattro aree su cui ci concentriamo oggi:
 
 ---
 
-## Scenario guidato: migrazione su cloud
+## Scenario simulato
 
-Un'azienda deve spostare un servizio interno su cloud (AWS/Azure).
+Siamo un'azienda dal nome NuvolaSoft deve spostare un servizio interno su cloud (su AWS), la nostra realtà ha improvvisamente acquistato cliente e quei servizi comprati al volo per andare online su Aruba non sono sufficienti.
 
-In piccoli gruppi:
-
-1. Identificate gli **asset** coinvolti (dati, sistemi, credenziali)
-2. Identificate le **minacce** plausibili
-3. Identificate le **vulnerabilità** dello scenario
+I nostri clienti sono soggetti NIS2, quindi per continuare a fornire servizi dobbiamo garantire standard di lavoro adeguati...
 
 ---
 
-## Ora mettiamo le mani in pasto
+## Siamo il nuovo DevOps
+
+... le risorse umane vedono che abbiamo conoscenze nel mondo ISO27001 e ci chiede di migrare i loro servizi su AWS rispettando le normative ISO27001.
+
+---
+
+## Ora mettiamo le mani in pasto (1)
+
+https://github.com/mbuferli/teach
+
+---
+
+## Ora mettiamo le mani in pasto (2)
 
 Passiamo dal laboratorio "sulla carta" a un ambiente cloud vero (anche se locale e finto):
 
@@ -414,3 +437,9 @@ Passiamo dal laboratorio "sulla carta" a un ambiente cloud vero (anche se locale
 
 - Ogni gruppo condivide un pensiero
 - Cosa abbiamo imparato?
+
+---
+
+# Grazie
+
+Buona giornata a tutti :)
