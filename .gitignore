@@ -81,3 +81,7 @@ pnpm-debug.log*
 Thumbs.db
 .vscode/
 .idea/
+.zed/
+
+# this project files
+workbench.sh
