@@ -85,3 +85,5 @@ Thumbs.db
 
 # this project files
 workbench.sh
+docs/prds/
+*DS_Store*
